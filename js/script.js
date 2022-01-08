@@ -8,7 +8,7 @@ var specialSet = "!()?[]`~;:!@#$%^&*+=";
 // Write password to the #password input
 function generatePassword() {
   var password = [];
-  var passwordLength = prompt("How many characters would you like your password to be? Please eanter a number between 8 and 128");
+  var passwordLength = prompt("Please enter a number between 8 and 128");
     if (!passwordLength) {
       return ("");
     }
